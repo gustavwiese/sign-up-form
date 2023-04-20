@@ -13,8 +13,8 @@
     </header>
 
     <form>
-      <h2>Personal Info</h2>
       <div id="personal_info">
+        <h2>Personal Info</h2>
         <label for="fname">Full name:</label>
         <input type="text" id="fname" name="fname" /><br />
         <label for="email">Email:</label>
@@ -28,13 +28,15 @@
         <input type="password" id="password" name="password" />
       </div>
 
+      <br />
+
       <div id="payment_info">
         <h2>Payment</h2>
         <input type="radio" id="free" name="payment" value="free" />
         <label for="free">Free</label><br />
         <input type="radio" id="cheap" name="payment" value="cheap" />
         <label for="cheap">Cheap</label><br />
-        <input type="radio" id="fair" name="payment" value="fair" />
+        <input type="radio" id="fair" name="payment" value="fair" checked />
         <label for="fair">Fair</label> <br />
         <input type="radio" id="expensive" name="payment" value="expensive" />
         <label for="expensive">Expensive</label>
@@ -43,16 +45,21 @@
       <br />
 
       <div id="checkboxes">
-        <input type="checkbox" id="emailYes" name="emailYes" value="Yes" />
+        <input type="checkbox" id="emailYes" name="emailYes" value="Yes" checked />
         <label for="emailYes"> I would like to recieve emails</label><br />
         <input type="checkbox" id="terms" name="terms" value="terms" />
         <label for="terms"> I accept the terms and conditions</label><br />
       </div>
 
+      <div id="pay_every"></div>
+
       <br />
       <br />
-      <input type="submit" value="Submit" />
-      <input type="reset" value="Clear" />
+
+      <div id="buttons">
+        <input type="submit" value="Submit" id="submit_btn" />
+        <input type="reset" value="Clear" id="reset_btn" />
+      </div>
     </form>
   </body>
 </html>

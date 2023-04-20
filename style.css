@@ -1,3 +1,23 @@
-body{
-    background-color: antiquewhite;
+body {
+  background-color: antiquewhite;
+}
+
+form {
+  background-color: rgba(105, 219, 244, 0.447);
+}
+
+#personal_info {
+  border-style: solid;
+}
+
+#payment_info {
+  border-style: solid;
+}
+
+#checkboxes {
+  border-style: solid;
+}
+
+#buttons {
+  color: antiquewhite;
 }
