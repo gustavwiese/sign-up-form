@@ -11,5 +11,41 @@
     <header>
       <h1>Sign Up Form</h1>
     </header>
+
+    <form>
+      <h2>Personal Info</h2>
+      <div id="personal_info">
+        <label for="fname">Full name:</label>
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br />
+        <br />
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" /> <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" /> <br />
+        <label for="password">Repeat password:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+
+      <div id="payment_info">
+        <h2>Payment</h2>
+        <input type="radio" id="free" name="payment" value="free" />
+        <label for="free">Free</label><br />
+        <input type="radio" id="cheap" name="payment" value="cheap" />
+        <label for="cheap">Cheap</label><br />
+        <input type="radio" id="fair" name="payment" value="fair" />
+        <label for="fair">Fair</label> <br />
+        <input type="radio" id="expensive" name="payment" value="expensive" />
+        <label for="expensive">Expensive</label>
+      </div>
+      <br />
+      <br />
+
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Clear" />
+    </form>
   </body>
 </html>
